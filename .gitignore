@@ -6,6 +6,7 @@
 .idea/
 .ionide/
 .vs/
+.paket/
 deploy/
 obj/
 bin/
