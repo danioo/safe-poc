@@ -5,4 +5,5 @@
 image: gitpod/workspace-dotnet
 
 tasks:
-  - command: dotnet run
+  - init: dotnet tool install paket
+    command: dotnet run
