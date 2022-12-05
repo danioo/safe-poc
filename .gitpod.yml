@@ -2,7 +2,7 @@
 # Please adjust to your needs (see https://www.gitpod.io/docs/config-gitpod-file)
 # and commit this file to your remote git repository to share the goodness with others.
 
-image: gitpod/workspace-dotnet
+image: gitpod/workspace-dotnet:2022-07-18-05-42-34
 
 tasks:
   - init: dotnet tool install paket && dotnet tool restore
