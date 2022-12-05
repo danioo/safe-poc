@@ -55,6 +55,7 @@ let pigeonMap (model: Model) = PigeonMaps.map [
     ]
 ]
 
+[<ReactComponent>]
 let CustomRouter ( model: Model ) =
     let (pageUrl, updateUrl) = React.useState(Route.parseUrl(Router.currentUrl()))
 

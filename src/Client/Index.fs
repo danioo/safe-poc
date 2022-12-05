@@ -21,9 +21,9 @@ let init () : Model * Cmd<Msg> =
 
     model, cmd
 
-let update (msg: Msg) (model: Model) : Model * Cmd<Msg> =
+let update msg model : Model * Cmd<Msg> =
     match msg with
     | GotSites sites -> { model with Sites = sites }, Cmd.none
 
-let view (model: Model) (dispatch: Msg -> unit) =
+let view model dispatch =
     CustomRouter model
